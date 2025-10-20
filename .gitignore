@@ -2,7 +2,7 @@
 node_modules/
 .pnpm/
 .pnpm-store/
-pnpm-lock.yaml  
+# pnpm-lock.yaml  
 package-lock.json  
 
 
