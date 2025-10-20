@@ -1,6 +1,6 @@
 [build]
-  command = "cd invoice-app && pnpm install --frozen-lockfile && pnpm run build"
-  publish = "invoice-app/dist"
+  command = "cd Todo && pnpm install --frozen-lockfile && pnpm run build"
+  publish = "Todo/dist"
   functions = "netlify/functions"
 
 [build.environment]
