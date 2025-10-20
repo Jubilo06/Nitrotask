@@ -110,11 +110,7 @@ function ProfilePage() {
     };
 
     if (isLoading) {
-        return  
-                <div >
-                    Loading...
-                </div>
-
+        return  <p >Loading...</p>
     }
 
     if (!user) { // Fallback if user somehow becomes null after loading
