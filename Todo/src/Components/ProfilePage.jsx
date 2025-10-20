@@ -111,14 +111,8 @@ function ProfilePage() {
 
     if (isLoading) {
         return  
-                <div className={styles.loader}>
-                <div className={styles.loader__inner}></div>
-                <div className={styles.loader__orbit}>
-                    <div className={styles.loader__dot}></div>
-                    <div className={styles.loader__dot}></div>
-                    <div className={styles.loader__dot}></div>
-                    <div className={styles.loader__dot}></div>
-                </div>
+                <div >
+                    Loading...
                 </div>
 
     }

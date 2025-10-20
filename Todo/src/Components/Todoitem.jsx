@@ -18,12 +18,7 @@ function Todoitem({items, todos, setTodos}){
                     <Button sx={{maxWidth:{xs:"80%"},height:"auto", textWrap:"wrap",textAlign:"center",lineHeight:"auto"}} onClick={()=>{handleClick(items.name)}}>{items.name}</Button>
                     <Button   onClick={()=>handleDelete(items)}>x</Button>
                 </Stack> 
-                <hr className={styles.line}>ythn nvuc lfwq icxs</hr>
-                <div>
-                    Welcome to Ciroc Kitchen, the dynamic online platform designed for food enthusiasts and home cooks alike. Dive into a world of delicious recipes sourced from global APIs like Spoonacular, 
-                    featuring everything from quick weeknight meals to gourmet feasts.
-                    3ECJZJXWP7SJ1JS1GUW6HV6J
-                </div>
+                
             </Stack>
 }
 export default Todoitem;
