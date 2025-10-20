@@ -1,0 +1,40 @@
+.item{
+    height: 50px;
+    overflow: hidden;
+    border-bottom: none;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 3px;
+    box-shadow: inset 0px 0px 10px 0px gray;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid #00008B;
+}
+#itemName{
+    font-weight: bolder;
+    
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#itemName button{
+    border-radius: 8px;
+    width: auto;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 10px;
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid silver;
+}
+.line{
+    border: 1px solid #f0f0f0;
+}
+.completed{
+    text-decoration: line-through 2px solid white;
+
+}

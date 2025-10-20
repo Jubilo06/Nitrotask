@@ -1,0 +1,21 @@
+
+.modernInput{
+    height: 40px;
+    display: block;
+    border: 1px solid black;
+    color: black;
+    justify-self: center;
+
+}
+.modernInput:focus{
+    outline: none;
+}
+.But{
+    color: white;
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    align-self: center;
+    border: none;
+    cursor: pointer;
+}

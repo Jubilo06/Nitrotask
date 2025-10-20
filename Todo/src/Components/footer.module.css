@@ -1,0 +1,11 @@
+.foot{
+    background-color: #0D1A26;
+    font: sans-serif 20px bolder;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.item{
+    justify-self: center;
+    color: #E6E6FA;
+}
